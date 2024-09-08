@@ -39,11 +39,11 @@ const Projects = () => {
                 <Box
                   sx={{
                     p: 10,
-                    bgcolor: 'red'
+                    bgcolor: 'blue'
                   }}>
                   <Grid2>
                     <Typography sx={{ color: '#fff' }}>
-                      Bewell
+                      project
                     </Typography>
                   </Grid2>
                 </Box>

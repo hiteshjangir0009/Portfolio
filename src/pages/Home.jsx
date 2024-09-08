@@ -138,7 +138,7 @@ const Home = () => {
                         {[1, 1].map((item) => (
                             <Box
                                 sx={{
-                                    bgcolor: 'red',
+                                    bgcolor: 'blue',
                                     p: 10,
                                     flexGrow: 1,
                                     margin: 1
@@ -146,7 +146,7 @@ const Home = () => {
 
                                 <Grid2 size={{ xs: 2, sm: 4, md: 4 }}>
                                     <Typography sx={{ color: '#fff' }}>
-                                        Bewell
+                                        project
                                     </Typography>
                                 </Grid2>
                             </Box>
