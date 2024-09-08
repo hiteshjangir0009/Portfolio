@@ -1,0 +1,41 @@
+.container {
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 9rem;
+
+    @media (max-width:600px) {
+        padding-top: 2rem;
+        /* height: ; */
+    }
+
+}
+
+.Linktext {
+    text-decoration: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 0 2rem 0;
+
+    /* background-color: aliceblue; */
+    @media (max-width:600) {
+        padding: 5rem 0 0rem 0;
+
+    }
+}
+
+.Project_container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 10rem;
+
+    @media (max-width:600px) {
+        padding: 1rem 4rem;
+
+    }
+
+}

@@ -1,0 +1,33 @@
+.Navbar_style {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.Navbar_style li a{
+   text-decoration:none;
+   color: #fff;
+  
+}
+
+.active{
+    color: aquamarine !important ;
+    font-weight: bold !important;
+}
+
+/* mobile view */
+.Navbar_style_Drawer{
+    list-style: none;
+    
+}
+.Navbar_style_Drawer li{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Navbar_style_Drawer li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
